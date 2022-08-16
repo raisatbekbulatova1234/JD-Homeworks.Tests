@@ -1,9 +1,10 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Tests {
+public class TestClassMain {
     @org.junit.jupiter.api.Test
-    public void testResultIsTrue() {
+
+    public void testTaxEarningsOnlyResultIsTrue() {
 
         int a = 5000;
         int expected = 300;
@@ -13,7 +14,7 @@ public class Tests {
     }
 
     @Test
-    public void testResultNotNull() {
+    public void testTaxEarningsMinusSpendingsResultNotNull() {
 
         int a = 50000;
         int b = 26000;
@@ -23,7 +24,7 @@ public class Tests {
     }
 
     @Test
-    public void test38e238u() {
+    public void testTaxEarningsOnlyResultIsFalse() {
 
         int a = 5000;
         int b = 700;
